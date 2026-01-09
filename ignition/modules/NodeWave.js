@@ -3,7 +3,7 @@
 
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-// Define the initial owner address if needed
+//define the initial owner address as needed
 const initialOwner = "0x48844a7861CA6F203cd63B5356dcdb1594417D79";
 
 const NodeWaveModule = buildModule("NodeWaveModule", (m) => {
