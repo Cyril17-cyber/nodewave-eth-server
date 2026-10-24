@@ -7,5 +7,11 @@
   "dependencies": {
     "@openzeppelin/contracts": "5.0.2",
     "dotenv": "16.4.5"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy-local.js --network localhost"
   }
 }
